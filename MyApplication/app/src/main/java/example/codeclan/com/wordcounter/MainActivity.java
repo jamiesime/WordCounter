@@ -40,5 +40,6 @@ public class MainActivity extends AppCompatActivity {
         result.setText("Count: " + total);
         details.setText("Details: " + counts);
         word.getList().clear();
+        word.getWordCounts().clear();
     }
 }

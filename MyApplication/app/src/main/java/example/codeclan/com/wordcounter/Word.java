@@ -35,6 +35,10 @@ public class Word {
         return this.list;
     }
 
+    public HashMap<String, Integer> getWordCounts(){
+        return this.wordCounts;
+    }
+
     public boolean checkKeyExists(String key){
         return wordCounts.containsKey(key);
     }
@@ -73,6 +77,6 @@ public class Word {
         }
         return wordCounts.toString();
     }
-    
+
 
 }
